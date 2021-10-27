@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Patrick+Hand&display=swap');
+*{
+    margin: 0px;
+    box-sizing:border-box;
+}
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #D4C7B0;
+
+}
+video{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    z-index: 0;
+}
+.navbar {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:#D4C7B0;
+    color: #ffedd8;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    height: 60px;
+    padding: 10px 10px ;
+}
+.navbar .left-menu{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+    list-style: none;
+   
+}
+.navbar li {
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+    color: #20120a;
+
+}
+.navbar .right-menu{
+    display: flex;
+    flex-direction: row-reverse;
+    gap:30px;
+    list-style: none;
+   
+}
+.header {
+    text-align: center;
+    margin: 50px 30px;
+}
+.header h6 {
+    
+font-family: 'Patrick Hand', cursive;
+font-size: 30px;
+color: #20120a;
+
+}
+.header p{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 22px;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    padding: 30px 30px;
+    color: #432818;
+
+}
+
+
+.article1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px 50px ;
+    gap:40px;
+    
+}
+.article1 img {
+    border-radius: 40px;
+}
+.article1 img:hover{
+    opacity: 0.8; ;
+}
+.article1 p {
+    font-size: 30px;
+    font-family: 'Patrick Hand', cursive;
+    color: #432818;
+   
+}
+.article1 p span {
+    font-size: 20px;
+    text-decoration: underline;
+}
+.article2 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 20px 50px ;
+    gap:40px;
+    
+}
+.article2 img {
+    border-radius: 40px;
+}
+.article2 img:hover{
+    opacity: 0.8; ;
+}
+.article2 p {
+    font-size: 30px;
+ font-family: 'Patrick Hand', cursive;
+    color: #432818;
+   
+}
+.article2 p span {
+    font-size: 20px;
+    text-decoration: underline;
+}
+.apps{
+    align-items: center;
+    background-color: #ffedd8;
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.apps h6{
+    font-family: 'Patrick Hand', cursive;
+    text-align: center;
+    font-size: 33px;
+    color: #432818;
+    padding-bottom: 40px;
+    
+}
+.apps ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    margin: auto;
+    align-items: center;
+    list-style: none;
+    font-family: 'Patrick Hand', cursive; 
+    font-size: 20px;
+    padding-left: 150px;
+    color: #432818;
+
+
+}
+.apps li {
+    color: #432818;
+}
+.apps li img{
+    border-radius: 50px;
+    border:2px solid #432818;
+    
+
+}
+.aside {
+  
+    background-image: url("./pexels-eternal-happiness-3326362\ \(2\).jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    
+
+    
+}
+
+.aside p {
+    text-align: center;
+    padding-top: 150px;
+    margin-left: 270px;
+    width: 500px;
+    font-family:'Patrick Hand', cursive;;
+    color:#432818 ;
+    font-size: 20px;
+}
+footer {
+    
+    background-color:hsla(36, 23%, 64%, 0.5);
+    padding: 100px 100px ;
+}
+footer .container .mb-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap : 30px;
+    text-align: center;
+    
+    
+}
+footer .container li {
+    list-style: none;
+
+}
+footer p {
+    text-align: center;
+    text-decoration: underline;
+}
+footer .container ul {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:20px;
+    padding-top: 20px ;
+}
+.container.about{
+    background-image: url("./f0ee87d28e5d76ded780bab6d130940e.jpg");
+    
+    max-width: 600px;
+    margin: 100px 252px ;
+    padding: 40px 40px;
+   display: flex;
+    flex-direction: row;
+    gap: 40px;
+    border-radius: 33px;
+    border: 1.5px solid #333d29;
+    box-shadow: 8px 8px rgba(128, 128, 128, 0.281);
+    
+}
+.container img {
+    align-items: center;
+    border-radius: 30px;
+    
+}
+.container .card-body{
+    font-family:'Patrick Hand', cursive ;
+    font-size: 25px;
+    color: #333d29;
+    
+}
+.blog h1 {
+    text-align: center;
+    margin: 80px 0px ;
+    font-family:'Patrick Hand', cursive ;
+    font-size: 50px;
+    color: #582f0e;
+
+}
+
+
+.inst-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:50px;
+    
+   
+   
+    
+}
+.inst-card .information{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+     width: 200px;
+     height: 300px;
+    
+   
+
+}
+.inst-card .information img {
+    border-radius: 15px;
+    border: 1px solid #582f0e;
+}
+
+
+.names {
+    position: relative;
+    top: -80px;
+    left:40px;
+   background-color:#ffedd8;
+    font-family:'Patrick Hand', cursive ;
+    font-size: 18px;
+    padding: 10px 10px ;
+    border-bottom: 5px solid #582f0e;
+    color: #582f0e;
+}
+.names p {
+    font-size: 14px;
+    color: #7f5539;
+
+
+}
+.blog{
+    
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    
+    
+
+}
+.demo {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .demo-img {
+    opacity: 0.6;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+  }
+.box{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    margin: 100px 100px ;
+    justify-content: center;
+}
+.box .price{
+    background-image: url("./f0ee87d28e5d76ded780bab6d130940e.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap:80px;
+    padding: 100px 50px ;
+    border: 1.5px solid #582f0e;
+    border-radius: 15px;
+    box-shadow: 8px 8px rgba(128, 128, 128, 0.281);
+}
+.price h2 {
+    text-align: center;
+    font-size: 50px;
+    font-family:'Patrick Hand', cursive ;
+    color: #582f0e;
+
+}
+
+.price p{
+    font-family:'Patrick Hand', cursive ;
+    font-size: 30px;
+    color: #cb997e ;
+    }
+
+    .price button {
+        padding: 10px 20px ;
+        border: 2px solid #582f0e ;
+        color: #582f0e;
+        background-color: #ffedd844;
+
+    }
+
+.price button:hover{
+    background-color: #7f55398c;
+} 
+.showcase{
+    margin: 200px 200px ;
+    
+
+}
+
+.question{
+    padding: 20px 250px ;
+}
+.form button{
+    margin-top: 20px;
+    padding: 10px 20px ;
+    border: 2px solid #582f0e ;
+    color: #582f0e;
+    
+    font-family:'Patrick Hand', cursive ;
+    background-color: #ffedd844;
+
+}
+.massege {
+    font-size: 30px;
+    color: #582f0e;
+    font-family:'Patrick Hand', cursive ;
+    padding: 60px 60px  ;
+}
