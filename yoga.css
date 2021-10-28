@@ -90,7 +90,8 @@ color: #20120a;
     border-radius: 40px;
 }
 .article1 img:hover{
-    opacity: 0.8; ;
+    opacity: 0.8; 
+    transform:scale(1.1);
 }
 .article1 p {
     font-size: 30px;
@@ -114,7 +115,9 @@ color: #20120a;
     border-radius: 40px;
 }
 .article2 img:hover{
-    opacity: 0.8; ;
+    opacity: 0.8; 
+    transform: scale(1.1);
+    
 }
 .article2 p {
     font-size: 30px;
@@ -325,7 +328,7 @@ footer .container ul {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    gap:80px;
+    gap:40px;
     padding: 100px 50px ;
     border: 1.5px solid #582f0e;
     border-radius: 15px;
